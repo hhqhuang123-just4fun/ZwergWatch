@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "ZwergWatch",
+  "version": "1.0",
+  "description": "A lightweight stock dashboard for your browser.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "50": "icons/50.png",
+      "128": "icons/128.png"
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.alphavantage.co/*"
+  ]
+}
